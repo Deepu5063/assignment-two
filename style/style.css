@@ -421,11 +421,11 @@ nav .btn-contact:hover {
   color: var(--white);
 }
 
-
+/* responsive */
 
 
 @media screen and (max-width: 576px) {
-  /* Nav Section Responsive */
+  /* Nav bar  */
   nav ul,
   .brand h3,
   .btn-contact {
@@ -457,7 +457,7 @@ nav .btn-contact:hover {
     margin-top: 20px;
   }
 
-  /* Curriculum Section Responsive */
+  /* Standard Section Responsive */
   .curriculum-section {
     margin: auto 10px;
   }
