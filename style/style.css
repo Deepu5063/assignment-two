@@ -1,8 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
-
-
-
-/* Navebar Styles */
+/* Navebar Section start */
 nav {
   display: flex;
   justify-content: space-between;
@@ -63,13 +60,11 @@ nav .btn-contact:hover {
 .display-none {
   display: none;
 }
-
-/* btn colors */
+/* Navbar Section done*/
 .btn-sky {
   background-color: #3cd8e8;
 }
 .btn-majorelle-blue {
-  /* background-color: #5d58ef; */
   background-color: var(--majorelle-blue);
 }
 .btn-citron {
@@ -81,7 +76,6 @@ nav .btn-contact:hover {
 .btn-black {
   background-color: var(--black);
 }
-/* border color */
 .card-light-cyan-border {
   border: 2px solid var(--Light-Cyan);
 }
@@ -91,7 +85,6 @@ nav .btn-contact:hover {
 .card-lavender-border {
   border: 2px solid var(--Lavender);
 }
-/* background colors */
 .bg-main {
   background-color: rgba(247, 247, 247, 1);
 }
@@ -122,8 +115,6 @@ nav .btn-contact:hover {
   padding: 0;
   font-family: "Quicksand", serif;
 }
-
-
 
 /* hero section styles */
 .hero-section {
@@ -162,7 +153,7 @@ nav .btn-contact:hover {
   width: 100%;
 }
 
-/* curriculum section */
+/* Standard section start*/
 .curriculum-section {
   margin: auto 200px;
   background-image: url(/assets/bg.png);
@@ -393,15 +384,9 @@ nav .btn-contact:hover {
   --Cornsilk: #fff4dc;
   --Lavender: #f2e8ff;
 }
-
-
-
-
-/* shared styles  */
 .text-center {
   text-align: center;
 }
-/* colors */
 .orange {
   color: #fea301;
 }
@@ -422,7 +407,6 @@ nav .btn-contact:hover {
 }
 
 /* responsive */
-
 
 @media screen and (max-width: 576px) {
   /* Nav bar  */
