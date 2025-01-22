@@ -1,0 +1,62 @@
+/* Nav Section Styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: auto 200px;
+  }
+  nav .brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  nav .brand img {
+    width: 50px;
+    height: auto;
+  }
+  nav .brand h3 {
+    font-size: 32px;
+    margin: 0;
+    font-weight: 700;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 32px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s ease;
+    font-weight: 700;
+  }
+  nav ul li a:hover {
+    color: #000000;
+  }
+  nav .btn-contact {
+    padding: 10px 40px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: var(--orange);
+    border: 1px solid var(--orange);
+    transition: background-color 0.5s ease;
+  }
+  nav .btn-contact:hover {
+    background-color: var(--main);
+    border: 1px solid var(--orange);
+    color: #000;
+  }
+  
+  .display-none {
+    display: none;
+  }
+  
