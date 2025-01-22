@@ -133,6 +133,7 @@ nav .btn-contact:hover {
   font-size: 20px;
   margin-bottom: 1.25rem;
 }
+/* hero section */
 .hero-section .left button {
   background-color: var(--black);
   color: var(--white);
